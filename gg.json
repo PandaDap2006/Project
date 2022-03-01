@@ -1,0 +1,94 @@
+{
+    "result": {
+        "kind": "youtube#searchListResponse",
+        "etag": "7b01qqN4LNANKbjcsyVkOUY2mLY",
+        "nextPageToken": "CAIQAA",
+        "regionCode": "DK",
+        "pageInfo": {
+            "totalResults": 1000000,
+            "resultsPerPage": 2
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "DUq2_Vx1Uznu3uFp9_4MDY8Lo7g",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "LHCob76kigA"
+                },
+                "snippet": {
+                    "publishedAt": "2015-12-15T15:01:55Z",
+                    "channelId": "UCs8ynQgjoKZblUXosXoeOEQ",
+                    "title": "Lukas Graham - 7 Years [Official Music Video]",
+                    "description": "Watch the official music video for 7 Years by Lukas Graham from the self-titled album. Subscribe to the channel: ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/LHCob76kigA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/LHCob76kigA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/LHCob76kigA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Lukas Graham",
+                    "liveBroadcastContent": "none",
+                    "publishTime": "2015-12-15T15:01:55Z"
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "rH6YAKQEzY0yqpBffbDBi1CnQEw",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "dN44xpHjNxE"
+                },
+                "snippet": {
+                    "publishedAt": "2018-09-07T04:00:03Z",
+                    "channelId": "UCs8ynQgjoKZblUXosXoeOEQ",
+                    "title": "Lukas Graham - Love Someone [Official Music Video]",
+                    "description": "Watch the official music video for Love Someone by Lukas Graham from 3 (The Purple Album). Subscribe to the channel: ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/dN44xpHjNxE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/dN44xpHjNxE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/dN44xpHjNxE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Lukas Graham",
+                    "liveBroadcastContent": "none",
+                    "publishTime": "2018-09-07T04:00:03Z"
+                }
+            }
+        ]
+    },
+    "body": "{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"7b01qqN4LNANKbjcsyVkOUY2mLY\",\n  \"nextPageToken\": \"CAIQAA\",\n  \"regionCode\": \"DK\",\n  \"pageInfo\": {\n    \"totalResults\": 1000000,\n    \"resultsPerPage\": 2\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"DUq2_Vx1Uznu3uFp9_4MDY8Lo7g\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"LHCob76kigA\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2015-12-15T15:01:55Z\",\n        \"channelId\": \"UCs8ynQgjoKZblUXosXoeOEQ\",\n        \"title\": \"Lukas Graham - 7 Years [Official Music Video]\",\n        \"description\": \"Watch the official music video for 7 Years by Lukas Graham from the self-titled album. Subscribe to the channel: ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/LHCob76kigA/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/LHCob76kigA/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/LHCob76kigA/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Lukas Graham\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2015-12-15T15:01:55Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"rH6YAKQEzY0yqpBffbDBi1CnQEw\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"dN44xpHjNxE\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2018-09-07T04:00:03Z\",\n        \"channelId\": \"UCs8ynQgjoKZblUXosXoeOEQ\",\n        \"title\": \"Lukas Graham - Love Someone [Official Music Video]\",\n        \"description\": \"Watch the official music video for Love Someone by Lukas Graham from 3 (The Purple Album). Subscribe to the channel: ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/dN44xpHjNxE/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/dN44xpHjNxE/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/dN44xpHjNxE/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Lukas Graham\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2018-09-07T04:00:03Z\"\n      }\n    }\n  ]\n}\n",
+    "headers": {
+        "cache-control": "private",
+        "content-encoding": "gzip",
+        "content-length": "720",
+        "content-type": "application/json; charset=UTF-8",
+        "date": "Tue, 01 Mar 2022 11:51:47 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "vary": "Origin, X-Origin, Referer"
+    },
+    "status": 200,
+    "statusText": null
+}

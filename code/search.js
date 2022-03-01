@@ -28,9 +28,15 @@ function execute() {
         .then(function(response) {
                 // Handle the results here (response.result has the parsed body).
                 console.log("Response", response);
+                createVideoList(response)
             },
             function(err) { console.error("Execute error", err); });
 }
 gapi.load("client:auth2", function() {
     gapi.auth2.init({client_id: "827143033062-7hio9nscfsuvq36i7idk6d38ffbo1na1.apps.googleusercontent.com"});
 });
+
+function createVideoList(response) {
+    var json = JSON.parse(response)
+    alert(json.result.items.size)
+}

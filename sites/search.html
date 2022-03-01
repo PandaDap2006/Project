@@ -31,7 +31,7 @@
             "part": [
                 "snippet"
             ],
-            "maxResults": 25,
+            "maxResults": 2,
             "q": search
             })
                 .then(function(response) {
@@ -47,8 +47,6 @@
 
     <body>
         <input type="text">
-        <button>Search</button>
-        <button onclick="loadClient()">authorize and load</button>
-        <button onclick="execute()">execute</button>
+        <button onclick="loadClient().than(execute)">Search</button>
     </body>
 </html>

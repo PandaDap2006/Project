@@ -40,5 +40,7 @@ function createVideoList(response) {
     var json = JSON.parse(JSON.stringify(response))
     for (let i = 0; i < json.result.items.length; i++) {
         console.log(json.result.items[i].snippet.title)
+        let video = document.createElement("div")
+        video.innerHTML = json.result.items[i].snippet.title
     }
 }

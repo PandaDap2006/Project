@@ -46,8 +46,6 @@ function createVideoList(response) {
         let title = document.createElement("div")
 
         video.id = "video"
-        video.style.width = "100px"
-        video.style.height = "100px"
 
         icon.src = json.result.items[i].snippet.thumbnails.medium.url
         icon.style.width = json.result.items[i].snippet.thumbnails.medium.width

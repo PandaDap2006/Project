@@ -8,8 +8,14 @@
 
 }
 
+#searchList {
+    display: flex;
+    gap: 5px;
+    margin: 5px;
+}
 #video {
     width: 320px;
     height: 250px;
     background-color: rgb(240, 240, 240);
+    padding: 3px;
 }

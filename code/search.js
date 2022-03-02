@@ -38,9 +38,7 @@ gapi.load("client:auth2", function() {
 
 function createVideoList(response) {
     var json = JSON.parse(JSON.stringify(response))
-    for (let i = 0; i < document.getElementById("searchList").childNodes.length; i++) {
-        document.getElementById("searchList").childNodes[0].remove
-    }
+    document.getElementById("searchList").innerHTML = ""
     for (let i = 0; i < json.result.items.length; i++) {
         console.log(json.result.items[i].snippet.title)
         let video = document.createElement("div")

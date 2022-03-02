@@ -2,15 +2,14 @@ body {
     margin: 0%;
 }
 #header {
-    height: 30%;
     width: 50%;
-    margin-left: 45%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-left: 65%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #searchInput {
     height: 35px;
-    width: 300px;
+    width: 50%;
 }
 #searchButton {
     width: 35px;

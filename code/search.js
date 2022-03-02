@@ -38,11 +38,17 @@ gapi.load("client:auth2", function() {
 
 function createVideoList(response) {
     var json = JSON.parse(JSON.stringify(response))
-    document.getElementById("searchList").innerHTML = ""
+    for (let i = 0; i < document.getElementById("searchList").childNodes.length; i++) {
+        document.getElementById("searchList").childNodes[0].remove
+    }
     for (let i = 0; i < json.result.items.length; i++) {
         console.log(json.result.items[i].snippet.title)
         let video = document.createElement("div")
         document.getElementById("searchList").appendChild(video)
+        let icon = document.createElement("image")
+        video.appendChild(icon)
+
+        icon.src = json.result.items[i].snippet.thumbnails.default.url
         video.innerHTML = json.result.items[i].snippet.title
     }
 }

@@ -41,7 +41,7 @@ function createVideoList(response) {
     for (let i = 0; i < json.result.items.length; i++) {
         console.log(json.result.items[i].snippet.title)
         let video = document.createElement("div")
-        video.appendChild(document.getElementById("searchList"))
+        document.getElementById("searchList").appendChild(video)
         video.innerHTML = json.result.items[i].snippet.title
     }
 }

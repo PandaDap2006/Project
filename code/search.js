@@ -42,13 +42,13 @@ function createVideoList(response) {
     for (let i = 0; i < json.result.items.length; i++) {
         console.log(json.result.items[i].snippet.title)
         let video = document.createElement("div")
-        let icon = document.createElement("image")
+        let icon = document.createElement("img")
         let title = document.createElement("div")
 
         icon.src = json.result.items[i].snippet.thumbnails.default.url
         icon.style.width = json.result.items[i].snippet.thumbnails.default.width
         icon.style.height = json.result.items[i].snippet.thumbnails.default.height
-        
+
         title.innerHTML = json.result.items[i].snippet.title
 
         video.appendChild(icon)

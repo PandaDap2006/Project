@@ -49,6 +49,8 @@ function createVideoList(response) {
         video.appendChild(icon)
 
         icon.src = json.result.items[i].snippet.thumbnails.default.url
+        icon.style.width = json.result.items[i].snippet.thumbnails.default.width
+        icon.style.height = json.result.items[i].snippet.thumbnails.default.height
         video.innerHTML = json.result.items[i].snippet.title
     }
 }

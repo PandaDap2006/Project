@@ -27,7 +27,7 @@ function execute() {
     })
         .then(function(response) {
                 // Handle the results here (response.result has the parsed body).
-                console.log("Response", response);
+                //console.log("Response", response);
                 createVideoList(response)
             },
             function(err) { console.error("Execute error", err); });
@@ -37,7 +37,6 @@ gapi.load("client:auth2", function() {
 });
 
 function createVideoList(response) {
-    var json = JSON.parse(toString(response))
-    console.log(toString(response))
-    console.log(json.result.items)
+    //var json = JSON.parse(toString(response))
+    console.log(response.toString())
 }

@@ -37,7 +37,6 @@ gapi.load("client:auth2", function() {
 });
 
 function createVideoList(response) {
-    //var json = JSON.parse(response)
-    var json = JSON.stringify(response)
-    console.log(json)
+    var json = JSON.parse(JSON.stringify(response))
+    console.log(json.result.items.length)
 }

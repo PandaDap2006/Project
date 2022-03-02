@@ -1,11 +1,20 @@
+body {
+    margin: 0%;
+}
 #header {
-    
+    height: 30%;
+    width: 50%;
+    margin-left: 45%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 #searchInput {
-
+    height: 35px;
+    width: 300px;
 }
 #searchButton {
-
+    width: 35px;
+    height: 35px;
 }
 
 #searchList {

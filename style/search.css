@@ -3,17 +3,13 @@ body {
 }
 #header {
     width: 50%;
-    margin-left: 65%;
+    margin-left: 50%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 #searchInput {
     height: 35px;
     width: 50%;
-}
-#searchButton {
-    width: 35px;
-    height: 35px;
 }
 
 #searchList {

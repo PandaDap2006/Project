@@ -60,15 +60,6 @@ function createVideoList(response) {
     }
 }
 
-var input = document.getElementById("searchInput");
-
-input.addEventListener("keyup", function(event) {
-  if (event.keyCode == 13) {
-    event.preventDefault()
-    execute()
-  }
-});
-
 function startVideo(id) {
     window.open("https://www.youtube.com/embed/" + id)
 }

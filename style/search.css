@@ -2,14 +2,13 @@ body {
     margin: 0%;
 }
 #header {
-    width: 40%;
-    margin-left: 50%;
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 #searchInput {
     height: 35px;
-    width: 100%;
+    width: 50%;
 }
 
 #searchList {

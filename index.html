@@ -11,6 +11,15 @@
 
     <script src="https://apis.google.com/js/api.js"></script>
     <script src="code/search.js"></script>
+    <script>
+        var input = document.getElementById("header").getElementById("searchInput");
+        input.addEventListener("keyup", function(event) {
+            if (event.keyCode == 13) {
+                event.preventDefault()
+                execute()
+            }
+        })
+    </script>
 
     <body onload="loadClient()">
         <div id="header">

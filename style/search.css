@@ -3,8 +3,8 @@ body {
 }
 #header {
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    height: var(height) / auto;
+    background-color: rgb(187, 187, 187);
 }
 #searchInput {
     height: 100%;

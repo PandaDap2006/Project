@@ -7,8 +7,12 @@ body {
     margin-bottom: 10px;
 }
 #searchInput {
-    height: 35px;
+    height: var(width/3);
     width: 50%;
+}
+#searchButton {
+    height: var(width);
+    width: 5%;
 }
 
 #searchList {

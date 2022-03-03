@@ -12,18 +12,21 @@
     <script src="https://apis.google.com/js/api.js"></script>
     <script src="code/search.js"></script>
     <script>
-        var input = document.getElementById("searchInput");
+        /*var input = document.getElementById("searchInput");
         input.addEventListener("keyup", function(event) {
             if (event.keyCode == 13) {
                 event.preventDefault()
                 execute()
             }
-        })
+        })*/
     </script>
 
     <body onload="loadClient()">
         <div id="header">
-            <input type="text" id="searchInput">
+            <div>
+                <input type="text" id="searchInput">
+                <button id="searchButton" onclick="execute()"></button>
+            </div>
         </div>
         <div id="searchList"></div>
     </body>

@@ -1,22 +1,23 @@
-body {
+* {
     margin: 0%;
+    padding: 0%;
 }
 #header {
-    width: 100%;
-    height: var(height) / auto;
+    width: 100vw;
+    height: 10vw;
     background-color: rgb(187, 187, 187);
 }
 #searchInput {
-    height: 100%;
-    width: 95%;
+    height: 5vw;
+    width: 40vw;
 }
 #searchButton {
-    height: 5%;
-    width: 5%;
+    height: 5vw;
+    width: 5vw;
 }
 #search {
-    width: 50%;
-    height: 5%;
+    width: 50vw;
+    height: 5vw;
 }
 
 #searchList {

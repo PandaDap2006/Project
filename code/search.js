@@ -41,7 +41,7 @@ function createVideoList(response) {
     document.getElementById("searchList").innerHTML = ""
     for (let i = 0; i < json.result.items.length; i++) {
         console.log(json.result.items[i].snippet.title)
-        let video = document.createElement("div")
+        let video = document.createElement("button")
         let icon = document.createElement("img")
         let title = document.createElement("div")
 

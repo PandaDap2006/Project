@@ -46,7 +46,7 @@ function createVideoList(response) {
         let title = document.createElement("div")
 
         video.id = "video"
-        video.onclick("startVideo("+ json.result.items[i].id.videoId +")")
+        video.onclick = "startVideo("+ json.result.items[i].id.videoId +")"
 
         icon.src = json.result.items[i].snippet.thumbnails.medium.url
         icon.style.width = json.result.items[i].snippet.thumbnails.medium.width

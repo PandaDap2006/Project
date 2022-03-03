@@ -46,7 +46,11 @@ function createVideoList(response) {
         let title = document.createElement("div")
 
         video.id = "video"
-        video.onclick = startVideo(json.result.items[i].id.videoId)
+        let id = json.result.items[i].id.videoId
+        video.onclick = function() {
+            console.log("video " + id + " opened")
+            window.open("https://www.youtube.com/embed/" + id)
+        }
 
         icon.src = json.result.items[i].snippet.thumbnails.medium.url
         icon.style.width = json.result.items[i].snippet.thumbnails.medium.width
@@ -58,9 +62,4 @@ function createVideoList(response) {
         video.appendChild(title)
         document.getElementById("searchList").appendChild(video)
     }
-}
-
-function startVideo(id) {
-    console.log("video " + id + " opened")
-    window.open("https://www.youtube.com/embed/" + id)
 }

@@ -11,6 +11,7 @@
 #searchInput {
     height: 5vw;
     width: 45vw;
+    font-size: 4vw;
 }
 #searchButton {
     height: 5vw;
